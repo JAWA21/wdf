@@ -1,0 +1,9 @@
+html{
+	margin: 0 auto;
+	width: 860px;
+}
+
+body{
+	background-color: grey;
+	font-family: helvetica times "sans serif";
+}

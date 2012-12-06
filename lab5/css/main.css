@@ -1,0 +1,36 @@
+html{
+	width: 1120px;
+	margin: 0 auto;
+	background-image: url(../images/woven.png);
+}
+
+body{
+	background-image: url(../images/cardboard.png);
+	color: #000000;
+	font-family: 'Hevetica Neue', sans-serif;
+	padding: 5px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin: 2px;
+}
+
+h1, h2, a{
+	font-family: 'Poiret One', cursive;
+	color: #FF6600;
+	}
+	
+ul{
+	list-style-type: none;
+}	
+	
+li{
+	margin: 10px 5px;
+	}
+
+li code{
+	font-weight: bold;
+	color: #336600;
+	font-size: 1.5em;
+	}
+
+	

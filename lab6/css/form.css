@@ -1,7 +1,3 @@
-			html{
-				
-			}
-
 			body{
 				background-image: url('../images/linen.png');
 			}
@@ -15,10 +11,6 @@
 				padding: 5px;
 				color: #663399;
 				font-family: 'Exo', sans-serif;
-			}
-
-			#submit{
-				position: right;
 			}
 
 			#search{

@@ -1,41 +1,42 @@
-			html{
-				
-			}
+body{
+	background-image: url('../images/linen.png');
+	}
 
-			body{
-				background-image: url('../images/linen.png');
-			}
+#wrapper{
+	margin: 0 auto;
+	width: 760px;
+	background-image: url('../images/noise.png');
+	border: 2px solid #aaa;
+	border-radius: 25px;
+	padding: 5px;
+	color: #663399;
+	font-family: 'Exo', sans-serif;
+	}
 
-			#wrapper{
-				margin: 0 auto;
-				width: 760px;
-				background-image: url('../images/noise.png');
-				border: 2px solid #aaa;
-				border-radius: 25px;
-				padding: 5px;
-				color: #663399;
-				font-family: 'Exo', sans-serif;
-			}
+table, th{
+	border: 3px solid #aaa;
+	width: 760px;
+	color: #003366;
+	border-collapse: collapse;
+	}
 
-			table, th{
-				border: 3px solid #aaa;
-				width: 760px;
-				color: #003366;
-			}
+td{
+	border: 2px solid #bbb;
+	text-align: right;
+	padding: 2px;
+	font-weight: 100;
+	color: #000;
+	}
 
-			td{
-				border: 2px solid #bbb;
-				text-align: right;
-				padding: 2px;
-				font-weight: 100;
-				color: #000;
-			}
+th{
+	text-align: center;
+	background:  #30101b;
+	font-weight: 400;
+	color: #d2d5ef;
+	padding-left: 3px;
+	font-size: 1.05em;
+	}
 
-			th{
-				text-align: center;
-				background:  #30101b;
-				font-weight: 400;
-				color: #d2d5ef;
-				padding-left: 3px;
-				font-size: 1.05em;
-			}
+tfoot tr td{
+	text-align: left;
+}

@@ -1,20 +1,21 @@
-			body{
-				background-image: url('../images/linen.png');
-			}
+body{
+	background-image: url('../images/linen.png');
+	}
 
-			#wrapper{
-				margin: 0 auto;
-				width: 760px;
-				background-image: url('../images/noise.png');
-				border: 2px solid #aaa;
-				border-radius: 25px;
-				padding: 5px;
-				color: #663399;
-				font-family: 'Exo', sans-serif;
-			}
+#wrapper{
+	margin: 0 auto;
+	width: 760px;
+	background-image: url('../images/noise.png');
+	border: 2px solid #aaa;
+	border-radius: 25px;
+	padding: 5px;
+	color: #663399;
+	font-family: 'Exo', sans-serif;
+	}
 
-			#search{
-				padding-top: 10px;
-				margin-top: 10px;
-				text-align: center;
-			}
+#search{
+	padding-top: 10px;
+	margin-top: 10px;
+	text-align: center;
+	}
+

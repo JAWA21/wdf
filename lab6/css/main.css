@@ -32,7 +32,10 @@
 			}
 
 			th{
-				text-align: left;
-				background:  #ff9999;
+				text-align: center;
+				background:  #30101b;
 				font-weight: 400;
+				color: #d2d5ef;
+				padding-left: 3px;
+				font-size: 1.05em;
 			}

@@ -1,0 +1,18 @@
+body{
+	background-image: url('../images/linen.png');
+	}
+
+#wrapper{
+	margin: 0 auto;
+	width: 760px;
+	background-image: url('../images/noise.png');
+	border: 2px solid #aaa;
+	border-radius: 25px;
+	padding: 5px;
+	color: #663399;
+	font-family: 'Exo', sans-serif;
+	}
+
+h1, h2, h3, h4{
+	font-family: 'Advent Pro', sans-serif;
+}

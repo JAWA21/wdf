@@ -18,36 +18,37 @@
 
 <form>
 <h3>Name:</h3>
-First: <input type="text" name="firstname" autofocus= “autofocus” required= “required”>
-Last: <input type="text" name="lastname" required= “required”> <br />
+<label>First: </label><input type="text" name="firstname" autofocus= “autofocus” required= “required”>
+<label>Last: </label><input type="text" name="lastname" required= “required”> <br />
 
 <h3>Are you coming?</h3>
 
-Yes <input type="radio" name="yes" value="yes">
-No <input type="radio" name="no" value="no">
-Maybe <input type="radio" name="maybe" value="maybe"><br />
+<label>Yes </label><input type="radio" name="yes" value="yes">
+<label>No </label><input type="radio" name="no" value="no">
+<label>Maybe </label><input type="radio" name="maybe" value="maybe"><br />
 
 <h3>In case the party is canceled, please provide two methods of contact</h3>
 
-Email <input type = “email” name= “email-address” required= “required” placeholder= example@example.com ><br />
-Tel <input type = “tel” name= “phone” required= “required” maxlength="3" placeholder= 000> -
- <input type = “tel” name= “phone” required= “required” maxlength="3" placeholder= 000> -
-<input type = “tel” name= “phone” required= “required” maxlength="4" placeholder= 0000> <br />
+<label>Email <input type = “email” name= “email-address” required= “required” placeholder= example@example.com ><br />
+<label>Tel </label>
+	<input type = “tel” name= “phone” required= “required” maxlength="3" placeholder= 000> -
+ 	<input type = “tel” name= “phone” required= “required” maxlength="3" placeholder= 000> -
+	<input type = “tel” name= “phone” required= “required” maxlength="4" placeholder= 0000> <br />
 
 
 <h3>Are you bringing a guest?</h3>
 
-Yes <input type="radio" name="yes" value="yes">
-No <input type="radio" name="no" value="no">
+<label>Yes </label><input type="radio" name="yes" value="yes">
+<label>No </label><input type="radio" name="no" value="no">
 
-<h4>How many guests do you plan on bringing?</h4>
+<h4><label>How many guests do you plan on bringing?</label></h4>
 ￼<input type=“number” name="guest_number" minimum="1" maximum="7"/>
 
 <h4>Your Guest Name</h4>
 
-First: <input type="text" name="guest_firstname"> <br />
+<label>First: </label><input type="text" name="guest_firstname"> <br />
 
-Last: <input type="text" name="guest_lastname"> <br />
+<label>Last: </label><input type="text" name="guest_lastname"> <br />
 
 <h3>For this party you must come in your worst holiday sweater.</h3>
 <h4>This is a requirement. Don't own a tacky holiday sweater?</h4>
@@ -60,11 +61,11 @@ Last: <input type="text" name="guest_lastname"> <br />
 	</form>
 	</div>
 
-<h4>On a ranking of 1-10, where does your sweater rank?</h4>
+<h4><label>On a ranking of 1-10, where does your sweater rank?</label></h4>
 <input type= “number” name= “sweater_rank” value="5"/>
 
 <h3>What is your favorite holiday shopping store?</h3>
-Holiday Shopping Store: <input type="url" name="url" list="mydata"/>
+<label>Holiday Shopping Store: </label><input type="url" name="url" list="mydata"/>
 	<datalist id="mydata">
 		<option label="target.com" value="http://www.target.com"> 
 		<option label="newegg.com" value="http://www.newegg.com"> 
@@ -76,17 +77,17 @@ Holiday Shopping Store: <input type="url" name="url" list="mydata"/>
 
 <div><p>Almost there! A few more questions!</p><progress value="75" max="100">75%</progress></div>
 
-<h3>What time of day can you be at the party?</h3>
+<h3><label>What time of day can you be at the party?</label></h3>
 <input type=“time” name=“best_time” />
 
-<h3>What day works best for you? </h3>
+<h3><label>What day works best for you? </label></h3>
 <input type = “date” name= “best_date” />
 ￼
-<h3>On a range of 1-10, how much do you like spicy foods?</h3>
+<h3><label>On a range of 1-10, how much do you like spicy foods?</label></h3>
 1<input type= “range” name= “amount”/>10
 
 <h2>Ok, last question</h2>
-<h3>What's your favorite color?</h3>
+<h3><label>What's your favorite color?</label></h3>
 <input type=“color” name=“color_choice” />
 
 <h3>Submit it!</h3>

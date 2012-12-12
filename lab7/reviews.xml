@@ -4,7 +4,7 @@
 
 <title>Movie Reviews</title>
 
-<link>http://jawa21.github.com/lab7/rss_link.html</link>
+<link>http://jawa21.github.com/wdf/lab7/rss_link.html</link>
 <description>Four brief movie reviews</description>
 <language>en-us</language>
 <pubDate>Mon, 10 Dec 2012 11:00:00 EST</pubDate>
@@ -12,7 +12,7 @@
 
 <item>
 	<title>Bad Boys</title>
-	<link>http://jawa21.github.com/lab7/rss_link.html</link>
+	<link>http://jawa21.github.com/wdf/lab7/rss_link.html</link>
 	<description>
 		Released: 1995
 		Genre: Action
@@ -25,7 +25,7 @@
 
 <item>
 	<title>Inception</title>
-	<link>http://jawa21.github.com/lab7/rss_link.html</link>
+	<link>http://jawa21.github.com/wdf/lab7/rss_link.html</link>
 	<description>
 		Released: 2010
 		Genre: Action
@@ -37,7 +37,7 @@
 
 <item>
 	<title>Sister Act</title>
-	<link>http://jawa21.github.com/lab7/rss_link.html</link>
+	<link>http://jawa21.github.com/wdf/lab7/rss_link.html</link>
 	<description>
 		Released: 1992
 		Genre: Comedy

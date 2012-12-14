@@ -1,0 +1,145 @@
+/*
+Donkey Kong WDF Practical
+Version 5.0
+Last Revision: Dec 2012
+*/
+
+/* ---- Document ---- */
+body {
+	margin: 0;
+	background-image: url(../images/body_bg.png);
+	background-color: #000;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	line-height: 1.5;
+	font-size: 14px;
+	font-family: 'Lucida Grande', Arial, sans-serif;
+	color: #FFF;
+}
+
+/* ---- Layout ---- */
+#container {
+	width: 650px;
+	margin: 0 auto;
+	background-color: #CF0431;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+
+header img {
+	display: block;
+	margin: 0 auto;
+}
+
+nav {
+	overflow: hidden;
+	background-color: #1F7FD3;
+}
+
+section {
+	float: right;
+	width: 350px;
+	margin-right: 45px;
+}
+
+aside {
+	float: left;
+	width: 180px;
+	margin-left: 45px;
+}
+
+footer {
+	clear: both;
+	padding: 15px 0 5px 45px;
+	border-top: 1px solid #EF9B2B;
+}
+
+/* ---- Typography ---- */
+h1, h2, h3, h4 {
+	color: #EF9B2B;
+	font-weight: normal;
+}
+
+footer h3 {
+	text-transform: uppercase;
+}
+
+footer li {
+	color: #EF9B2B;
+	list-style: upper-alpha;
+}
+
+/* ---- Lists ---- */
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	float: left;
+	padding-left: 45px
+}
+
+aside ul {
+	border-right: 1px solid #EF9B2B;
+}
+
+aside li {
+	padding-bottom: 10px;
+}
+
+/* ---- Links ---- */
+	
+a:link, a:visited {
+	color: #EF9B2B;
+	text-decoration: none;
+	border-bottom: 1px solid #EF9B2B;
+}
+
+a:hover, a:active {
+	background-color: #1F7FD3;
+	color: #FFF;
+	border-bottom: none;
+}
+
+nav li a:link, nav li a:visited{
+	font-size: 1.5em;
+	color: #FFF; 
+	border: none;
+}
+
+aside img {
+	border: none;
+}
+
+aside a:link, aside a:visited {
+	display: block;
+	width: 156px;
+	height: 156px;
+	border: 2px solid #EF9B2B;
+}
+
+aside a:hover, aside a:active {
+	border: 2px solid #1F7FD3;
+}
+
+/* ---- Form ---- */
+form div {
+	margin: 20px 0;
+}
+
+label {
+	display: block;
+	width: 100px;
+	float: left;
+	text-align: right;
+	margin-right: 7px;
+}
+
+#submit {
+	float: right;
+	margin-right: 20px;
+}
+
+

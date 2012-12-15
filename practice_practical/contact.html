@@ -1,85 +1,90 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<title>Contact | Donkey Kong</title>
-	<link rel="stylesheet" href="css/main.css">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/web.css">
+	<title>AppStore iPad Apps</title>
 </head>
 
 <body>
-		<div id="container">
-			<header><img src="images/donkey_kong_logo.gif" width="550" height="120" alt="Donkey Kong Logo"/>
-		
-		<nav>
-			<ul>
-				<li><a href="index.html">About Donkey Kong</a></li>
-				<li><a href="contact.html">Contact Nintendo</a></li>
-			</ul>
-		</nav>
-		</header>
-		
+	<header>
+		<div id="header_wrap">
+			<h1><a href="index.html">AppStore iPad Apps</a></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="help.html">FAQs</a></li>
+					<li><a href="contact.html" id="active">Contact</a></li>
+				</ul>
+			</nav>
+		</div> <!-- close head_wrap -->
+	</header>
+
+	<div id="wrapper">
 		
 		<section>
-			<h1>Contact Donkey Kong</h1>
-			<p>Donkey Kong is an arcade game developed by Nintendo, released in 1981. It is an early example of the platform genre, as the gameplay focuses on maneuvering the main character across a series of platforms while dodging obstacles. In it, Jumpman (now known as Mario) must rescue a damsel in distress, Lady (now known as Pauline), from a giant ape named Donkey Kong. The hero and ape later became two of Nintendo's most popular characters.</p>
+			<h2>Contact Us</h2>
+			<form method="post" action="mailto:jawa@fullsail.edu">
+				<div>
+					<label for="name">Name:</label>
+					<input id="name" name="name" autofocus>
+				</div>
+				
+				<div>
+					<label for="email">Email:</label>
+					<input id="email" name="email" type="email" placeholder="example@example.com" >
+				</div>
+				
+				<div>
+					<label for="website">Website:</label>
+					<input id="website" name="website" type="url" placeholder="http://www.example.com" >
+				</div>
+				
+				<div>
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" rows="6" cols="33" >
+					</textarea>
+				</div>
+				
+				<div>
+					<label for="regarding">Regarding:</label>
+					<select id="regarding" name="regarding">
+						<option>General Inquiry</option> 
+						<option>Suggestion</option> 
+						<option>Site Error</option>
+						<option>Legal</option> 
+						<option>Press</option>
+					</select>
+				</div>
+				
+				<div>
+					<label for="agreement">Agreement:</label>
+					<input id="agreement" type="checkbox" name="agreement" required />I have read and agree to the <a href="#">User Agreement</a>.
+				</div>
 
-			<p>Despite initial misgivings on the part of Nintendo's American staff, Donkey Kong proved a success in North America and Japan. Nintendo licensed the game to Coleco, who developed home console versions for numerous platforms. Other companies cloned Nintendo's hit and avoided royalties altogether. Miyamoto's characters appeared on cereal boxes, television cartoons, and dozens of other places. A court suit brought on by Universal City Studios, alleging Donkey Kong violated their trademark of King Kong, ultimately failed. The success of Donkey Kong and Nintendo's win in the courtroom helped position the company to dominate the video game market in the 1980s and early 1990s.</p>
-			<form name="input" action="mailto:jawa@fullsail.edu" method="post">
-			
 				<div>
-					<label>First Name:</label>
-					<input type="text" id="name_first" name="firstname" autofocus>
+					<input type="submit" value="Send">
 				</div>
-				
-				<div>
-					<label>Last Name:</label>
-					<input type="text" id="name_last" name="name_last" autofocus>
-				</div>
-				
-				<div>
-					<label>Email:</label>
-					<input type="text" id="email" name="email" autofocus placeholder="example@example.com">
-				</div>
-				
-				<div>
-					<label>Phone</label><input type="text" id="phone" name="phone" autofocus placeholder="000-000-0000">
-				</div>
-				
-				<div>
-					<label>Message</label>
-					<textarea rows="12" cols="26" id="message" name="message" autofocus>Your message here...</textarea>
-				</div>
-				
-				<div>
-					<input type="submit" value="Submit">
-				</div>
-				
+
 			</form>
 		</section>
 
-		<div id="sidebar">
-			<aside>
-				<h2>Screen Shots</h2>
-				<ul>
-					<li><a href="images/donkey_kong1.png"><img src="images/tn_donkey_kong1.png" alt="Screen shot of Donkey Kong"></a></li>
-					<li><a href="images/donkey_kong2.png"><img src="images/tn_donkey_kong2.png" alt="Screen shot of Donkey Kong"></a></li>
-					<li><a href="images/donkey_kong3.png"><img src="images/tn_donkey_kong3.png" alt="Screen shot of Donkey Kong"></a></li>
-					<li><a href="images/donkey_kong4.png"><img src="images/tn_donkey_kong4.png" alt="Screen shot of Donkey Kong"></a></li>
-				</ul>
-			</aside>
-		</div> <!-- sidebar close -->
-			<div id="footer">
-				<footer>
-					<h3>Reference &amp; Further Reading</h3>
-					<ol>
-						<li><a href="http://en.wikipedia.org/wiki/Donkey_Kong_(video_game)">Wikipedia</a></li>
-						<li><a href="http://donkeykong.wikia.com/wiki/Donkey_Kong_(arcade_game)">Donkey Kong Wiki</a></li>
-						<li><a href="http://www.mariowiki.com/Donkey_Kong_(arcade_game)">Super Mario Wiki</a></li>
-					</ol>
-				</footer>
-		</div> <!-- close sidebar -->
-	
-	</div> <!-- close container -->
+		<aside>
+			<form method="get" action="http://google.com/search">
+				<div>
+					<label>Search Google</label>
+					<input type="search" name="q" placeholder="Search Google" id="search"/>
+					<input type="submit" value="Search"/>
+				</div>
+			</form>
+			<a href="http://www.homereserve.com/" title="Save on furniture today at Home Reserve"><img src="ads/ad_homereserve.jpg" alt="Home Reserve Advertisement"></a>
+		</aside>
+
+		<footer>
+			Copyright &copy; 2012 <strong>AppStore iPad Apps</strong> | Winter Park, FL USA | <a href="contact.html">Contact Us</a>
+		</footer>
+	</div> <!-- close wrapper -->
 </body>
 </html>

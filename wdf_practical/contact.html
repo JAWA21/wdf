@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/web.css">
+	<title>AppStore iPad Apps</title>
+</head>
+
+<body>
+	<header>
+		<div id="header_wrap">
+			<h1><a href="index.html">AppStore iPad Apps</a></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="help.html">FAQs</a></li>
+					<li><a href="contact.html" id="active">Contact</a></li>
+				</ul>
+			</nav>
+		</div> <!-- close head_wrap -->
+	</header>
+
+	<div id="wrapper">
+		
+		<section>
+			<h2>Contact Us</h2>
+			<form method="post" action="mailto:jawa@fullsail.edu">
+				<div>
+					<label for="name">Name:</label>
+					<input id="name" name="name" autofocus>
+				</div>
+				
+				<div>
+					<label for="email">Email:</label>
+					<input id="email" name="email" type="email" placeholder="example@example.com" >
+				</div>
+				
+				<div>
+					<label for="website">Website:</label>
+					<input id="website" name="website" type="url" placeholder="http://www.example.com" >
+				</div>
+				
+				<div>
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" rows="6" cols="33" >
+					</textarea>
+				</div>
+				
+				<div>
+					<label for="regarding">Regarding:</label>
+					<select id="regarding" name="regarding">
+						<option>General Inquiry</option> 
+						<option>Suggestion</option> 
+						<option>Site Error</option>
+						<option>Legal</option> 
+						<option>Press</option>
+					</select>
+				</div>
+				
+				<div>
+					<label for="agreement">Agreement:</label>
+					<input id="agreement" type="checkbox" name="agreement" required />I have read and agree to the <a href="#">User Agreement</a>.
+				</div>
+
+				<div>
+					<input type="submit" value="Send">
+				</div>
+				
+			</form>
+		</section>
+
+		<aside>
+			<form method="get" action="http://google.com/search">
+				<div>
+					<label>Search Google</label>
+					<input type="search" name="q" placeholder="Search Google" id="search"/>
+					<input type="submit" value="Search"/>
+				</div>
+			</form>
+			<a href="http://www.homereserve.com/" title="Save on furniture today at Home Reserve"><img src="ads/ad_homereserve.jpg" alt="Home Reserve Advertisement"></a>
+		</aside>
+
+		<footer>
+			Copyright &copy; 2012 <strong>AppStore iPad Apps</strong> | Winter Park, FL USA | <a href="contact.html">Contact Us</a>
+		</footer>
+	</div> <!-- close wrapper -->
+</body>
+</html>
